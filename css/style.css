@@ -1,0 +1,75 @@
+body{
+    background-color: lightgray;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+header .container-1 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 25px;
+}
+header .container-1 h1{
+    font-style: italic;
+    padding-left: 30px;
+
+}
+header .container-1{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+header .container-1 a{
+    color: white;
+    padding-top: 30px;
+    text-decoration: none;
+    padding-left: 15%;
+}
+header .container-1 a:hover{
+    color: red;
+}
+.container-2{
+    display: flex;
+    flex-direction: row;
+}
+.container-2 img{
+    height: 20%;
+    width: 15%;
+}
+.container-2 p{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.container-3 h3{
+    text-align: center;
+}
+.container-3 p{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50%;
+    padding-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color: red;
+}
+.footer p{
+    text-align: right;
+}
+@media(max-width: 768px){
+    .container-2,
+    .container-2 img{
+      text-align: center; 
+      width: 100%; 
+      display: block;
+    }
+}
